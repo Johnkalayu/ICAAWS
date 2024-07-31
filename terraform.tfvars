@@ -1,0 +1,8 @@
+env = "dev"
+vpc_cidr = "10.0.0.0/24"
+vpc_name = "vpc-01"
+ec2_instance = "master"
+key_par = "test"
+pri_sub02_cidr = "10.0.0.1/24"
+pub_sub01_cidr = "10.0.0.2/24"
+nat_name = "nat-01"
