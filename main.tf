@@ -11,16 +11,14 @@ resource "aws-vpc" "vpc" {
 resource "aws_internet_gateway" "int_gat" {
     vpc_id = aws_vpc.vpc_id
 
-    tags = {
-        name = 
-        env = var.env
-    }
+
   
 }
+
 resource "aws_subnet" "sub-01" {
     vpc_id = aws_vpc.vpc_id
     cidr_block = var.pub_sub01_cidr
-    availability_zone = 
+    //availability_zone = 
 
   
 }
